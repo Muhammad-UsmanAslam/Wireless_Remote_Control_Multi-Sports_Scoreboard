@@ -153,15 +153,11 @@ The application sends the selected command through Bluetooth using the HC-05 mod
 
 The Arduino UNO receives and processes the command.
 
-### Step 5 — Communication
+### Step 5 — Display
 
-The processed scoreboard information is transferred through the Raspberry Pi communication layer.
+The Arduino uno controller process the display information and drives the P10 LED modules.
 
-### Step 6 — Display
-
-The Huidu E63 controller receives the display information and drives the P10 LED modules.
-
-### Step 7 — Real-Time Update
+### Step 6 — Real-Time Update
 
 The updated score becomes visible on the scoreboard.
 
@@ -202,60 +198,19 @@ Hardware:
 - Arduino UNO
 - ATmega328P
 - HC-05 Bluetooth
-- Raspberry Pi
-- Huidu E63
 - P10 LED Modules
 
 Software:
 - Arduino IDE
 - MIT App Inventor
 - HD2018
-- Huidu SDK
 - C#
-- Raspberry Pi Software
 
 Communication:
 - Bluetooth
 - Serial Communication
 - LED Display Data Communication
 ```
-
----
-
-## 📂 Suggested Repository Structure
-
-```text
-Multi-Sport-Scoreboard/
-│
-├── Android-App/
-│   └── MIT-App-Inventor/
-│
-├── Arduino/
-│   ├── source-code/
-│   └── libraries/
-│
-├── Raspberry-Pi/
-│   └── communication/
-│
-├── Huidu/
-│   └── configuration/
-│
-├── Hardware/
-│   ├── circuit-diagram/
-│   ├── PCB/
-│   └── wiring/
-│
-├── Documentation/
-│   ├── Final-Year-Project-Report/
-│   ├── Presentation/
-│   └── Poster/
-│
-├── Images/
-│   └── project-images/
-│
-└── README.md
-```
-
 ---
 
 ## 🚀 Future Improvements
@@ -278,22 +233,9 @@ The system can be further improved by adding:
 
 ---
 
-## 📸 Project Demonstration
-
-Add project photographs and demonstration videos to this section.
-
-```text
-/images
-    ├── scoreboard.jpg
-    ├── android-app.jpg
-    ├── hardware.jpg
-    ├── p10-display.jpg
-    └── system-setup.jpg
-```
-
 ---
 
-## 👨‍💻 Project Team
+## 👨‍💻 Project 
 
 **Final Year Project — Multi Sport Scoreboard**
 
@@ -301,9 +243,7 @@ Developed as a Bachelor of Computer Engineering Final Year Project.
 
 ### Team Members
 
-* Muhammad Usman
-* Subhan
-* Saad
+* Muhammad Usman Aslam
 
 ---
 
