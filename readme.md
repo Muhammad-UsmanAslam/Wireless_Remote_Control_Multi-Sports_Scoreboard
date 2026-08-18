@@ -108,11 +108,6 @@ The Arduino UNO is programmed to:
 3. Update the scoreboard information.
 4. Send the required information toward the display system.
 
-### LED Display Control
-
-The **Huidu E63** controller is used to control the P10 LED modules and manage the visual output of the scoreboard.
-
----
 
 ## 📡 Communication
 
@@ -129,12 +124,6 @@ Android Application
         │
         ▼
     Arduino UNO
-        │
-        ▼
-  Raspberry Pi
-        │
-        ▼
-     Huidu E63
         │
         ▼
     P10 Display
